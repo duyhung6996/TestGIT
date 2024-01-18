@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         val tv1 = findViewById<TextView>(R.id.tv_1)
         tv1.text = "Test 123"
         val tv2 = findViewById<TextView>(R.id.tv_2)
-        tv2.text = "Deo Hop Ly"
+        tv2.text = "Deo Hop Ly Cai LOL"
         val btn = findViewById<Button>(R.id.btn)
         btn.setOnClickListener {
-            Toast.makeText(this,"ĐCM deo hop ly",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"ĐCM deo hop ly Cai LOL",Toast.LENGTH_SHORT).show()
         }
     }
 }
