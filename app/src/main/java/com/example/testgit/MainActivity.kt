@@ -2,7 +2,9 @@ package com.example.testgit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,5 +15,9 @@ class MainActivity : AppCompatActivity() {
         tv1.text = "Test 123"
         val tv2 = findViewById<TextView>(R.id.tv_2)
         tv2.text = "ManPD"
+        val btn = findViewById<Button>(R.id.btn)
+        btn.setOnClickListener {
+            Toast.makeText(this,"Hello World",Toast.LENGTH_SHORT).show()
+        }
     }
 }
