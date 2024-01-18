@@ -11,5 +11,7 @@ class MainActivity : AppCompatActivity() {
 
         val tv1 = findViewById<TextView>(R.id.tv_1)
         tv1.text = "Hello"
+        val tv2 = findViewById<TextView>(R.id.tv_2)
+        tv2.text = "ManPD"
     }
 }
